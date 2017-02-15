@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191A19"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity" >
+    
+     <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+         
+     <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#B4B4B4"
+       android:layout_gravity="center"
+       android:textSize="15sp"
+       android:text="정보출처"
+       android:textStyle="bold"
+       android:typeface="normal" />
+     <TextView
+        android:id="@+id/hiddenlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="나무 위키 피파 온라인 3/히든 스탯"
+        android:textSize="15sp"
+        android:typeface="normal" />
+       
+    <TextView
+       android:id="@+id/msg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#B4B4B4"
+       android:layout_gravity="center"
+       android:textSize="15sp"
+       android:text="선호 포지션 고집(Inflexible) : 선호 포지션이 아닌 곳에서 활약이 약함. \n\n
+장거리 스로잉(Long Throws) : 장거리 드로잉을 할 수 있음. \n\n
+다이버(Diver) : 선수 경합시 다이빙을 통해 프리킥이나 반칙을 잘 얻어냄. \n\n
+유리몸(Injury Prone) : 부상을 잘 당함. \n\n
+강철몸(Injury Free) : 부상을 잘 당하지 않음 \n\n
+주발 선호(Avoids Using Weaker Foot) : 약한 발을 잘 사용하지 않으려고 함. \n\n
+슬라이팅 태클 선호(Dives Into Tackles) : 슬라이팅 태클을 자주 함.(AI 플레이) \n\n
+개인 플레이 선호(Selfish) : 패스를 잘 안함.(AI 플레이) \n\n
+리더쉽(Leadership) : 팀을 잘 이끄는 성격으로 주장에 적합. \n\n
+다혈질(Argues With Officials) : 심판에게 항의를 자주함. \n\n
+얼리 크로스 선호(Early Crosser) : 얼리크로스를 잘 사용함(AI 플레이) \n\n
+예리한 감아차기(Finesse Shot) : 감아차기에 능숙함. \n\n
+화려한 개인기(Flair) : 다양한 개인기를 사용할 수 있음. \n\n
+긴 패스 선호(Long Passer) : 긴 패스를 자주 사용함.(AI 플레이) \n\n
+중거리 슛 선호(Long Shot Taker) : 중거리 슛을 자주 사용함.(AI 플레이) \n\n
+플레이 메이커(Play Maker) : 팀의 중심이 되어 패스를 통한 공격을 전개함.(AI 플레이) \n\n
+GK 공격 가담(Pushes Up For Corners) : GK가 코너킥시 공격에 가담하기도 함.(AI 플레이) \n\n
+GK 날렵한 펀칭(Puncher) : GK가 공을 쳐내는 기술이 능숙함. \n\n
+GK 멀리 던지기(Long Thrower) : GK가 공을 멀리 던질 수 있음. \n\n
+강력한 헤딩(Power Header) : 헤딩을 잘 함. \n\n
+GK 능숙한 1:1 수비(GK One On Ones) : GK가 1:1에서 방어를 잘함. \n\n
+초장거리 드로잉(Giant Throws) : 초장거리 드로잉을 할 수 있음. \n\n
+아웃사이드 슈팅(Outside Foot Shot) : 아웃 사이드 슈팅에 능숙함. \n\n
+인기인(Crowd Favourite) : 팬들의 함성을 이끌어냄. \n\n
+패스 마스터(Swerve Passer) : 패스 스킬이 뛰어남. \n\n
+승부욕(Second Wind) : 경기 막판, 지고 있는 경우 더욱 힘을 냄. \n\n
+화려한 걷어내기(Acrobatic Clearance) : 화려한 자세로 공을 걷어낼 수 있음. \n\n"
+       android:textStyle="bold"
+       android:typeface="normal" />
+    </LinearLayout>
+
+    
+    </ScrollView>

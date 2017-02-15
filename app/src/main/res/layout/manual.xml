@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/manual"
+    android:orientation="horizontal"
+    tools:context=".ManualActivity" >
+
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/manual"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+ 
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:autoLink="email"
+        android:linksClickable="true"
+        android:text="myfaceon@nate.com"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="@string/developer"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:typeface="normal" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/son"
+        android:typeface="normal" />
+  <!-- adlib adview -->
+
+<com.mocoplex.adlib.AdlibAdViewContainer
+    android:id="@+id/ads"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true" >
+</com.mocoplex.adlib.AdlibAdViewContainer>
+</RelativeLayout>

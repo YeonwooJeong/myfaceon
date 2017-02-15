@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main1"
+    tools:context=".SelectActivity" >
+
+    <Button
+        android:id="@+id/button_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:background="#00ff0000"
+        android:text="@string/button1"
+        android:textColor="#a9a9a9"
+        android:textSize="25sp" />
+    
+   	
+    
+    <ImageView
+	    android:id="@+id/club"
+	    android:layout_width="80dp"
+	    android:layout_height="80dp"
+	    android:layout_above="@+id/img"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="20dp"
+	    android:src="@drawable/clublogo" />
+    
+	<ImageView
+	    android:id="@+id/img"
+	    android:layout_width="wrap_content"
+	    android:layout_height="63dp"
+	    android:layout_alignParentBottom="true"
+	    android:src="@drawable/banner" />
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	    android:layout_above="@+id/button_custom"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="22dp"
+	    android:background="#00ff0000"
+	    />
+
+
+
+</RelativeLayout>

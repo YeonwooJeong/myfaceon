@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191A19"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity" >
+    
+     <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+         
+     <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#B4B4B4"
+       android:layout_gravity="center"
+       android:textSize="15sp"
+       android:text="정보출처"
+       android:textStyle="bold"
+       android:typeface="normal" />
+     <TextView
+        android:id="@+id/hiddenlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="http://blog.naver.com/mott2468/120192649769"
+        android:textSize="15sp"
+        android:typeface="normal" />
+       
+    <TextView
+       android:id="@+id/msg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#B4B4B4"
+       android:layout_gravity="center"
+       android:textSize="15sp"
+       android:text=" -Argues With Officials : 애매한 판정일 경우 심판과 언쟁을 함\n\n -Avoids Using Weaker Foot : 약한발은 잘 사용하지 않음\n\n -Cautious With Crosses : 코너킥 및 크로스에 대해 인터셉트 시도 보단 골 라인을 지키려 한다\n\n -Comes For Crosses : 코너킥 및 크로스에 대해 적극적으로 인터셉트를 시도한다\n\n -Corner Specialist : 코너킥 시 좀더 많은 골 찬스를 발생시킴 \n\n -Counter Attacker : 역습상황으로 전환할때의 반응속도가 향상됨\n\n -Diver : 태클을 당하면 넘어지면서 반칙을 유도함\n\n -Dives Into Tackles : 슬라이딩 태클을 자주 시도함\n\n -Early Crosser : 얼리크로스 능력치 뛰어남\n\n -Fancy Feet : 보다 정교하고 화려한 퍼스트 터치 발동\n\n -Finesse Header : 정확한 헤딩을 시도함\n\n -Finesse Shot : 정확한 슛팅을 시도함\n\n -Flair : 공을 받거나 받은 후에 일정한 공간과 시간이 있다면 자발적으로 트릭을 사용함\n\n -Forward pushes wide left : 공격시 왼쪽을 선호하는 움직임\n\n -Forward pushes wide Right : 공격시 오른쪽을 선호하는 움직임\n\n -Giant Thorw in : 드로잉을 아주 멀리 던짐 \n\n -GK Long Throw : 골킥을 멀리 찰 수 있음\n\n -GK One On One : 1:1상황에서의 방어능력이 뛰어남\n\n -GK Puncher : 펀칭의 능력이 뛰어나고 자주시도함\n\n -GK up for Corners : 키퍼가 경기종료시간이 얼마 안남았을때 코너킥 상황에 공격하러 올라감\n\n -Heel Passer : 힐패스능력이 뛰어남\n\n -High Determination : 지고있는 상황에서 일관성 상향\n\n -Holds Up : 공격상황에서 몸싸움 경합시 밸런스 상향 \n\n -Inflexible : 둔한 움직임을 보임\n\n -Injury Free : 부상을 쉽게 당하지 않음\n\n -Injury Prone : 부상을 쉽게 당함 \n\n -Late Crosser : 박스 측면 크로스 라인에서 크로스 능력치 하향\n\n -Leadership : 선수들을 따르게 하고 프리킥등의 상황에서 수비진을 조율 함\n\n -Long Passer : 긴 패스 능력이 뛰어남\n\n -Long Shot Taker : 중거리 슛 능력이 뛰어남\n\n -Long Throw in : 드로잉을 멀리 던짐\n\n -Low Concentration : 이기고 있는 상황에서 일관성 하향\n\n -Low Determination : 지고있는 상황에서 일관성 하향\n\n -One Time Passer : 한번에 공격수에게 찔러주는 킬러패스에 보정\n\n -Outside Foot Shot : 아웃사이드 슈팅시도를 함\n\n -Outside passer : 바깥 발로 휘는 패스가 가능\n\n -Penalty Saving : 패널티킥 세이브에 대한 보정\n\n -Play Maker: 플레이메이커 역할을 수행함\n\n -Power Free Kick : 강력한 프리킥 가능\n\n -Power Header : 헤딩능력이 뛰어남,골대 구석 위치로 움직임\n\n -Pumps up crowd: 관중의 분위기를 띄움\n\n -Pumps up team mates: 팀의 분위기를 띄움\n\n -Pushes Forward: 전방 압박 및 오버레핑을 자주 시도하는 성향\n\n -Responsibility Taker : 책임감이 강함 (선발출전시 컨디션 상향)\n\n -Risk Taker : 경고받는걸 감수하고 적극적으로 수비함 (적극성 상향)\n\n -Rushes Out Of Goal : 타겟맨과의 볼 경합시 공으로 달려들어 수비하는 성향을 갖는다\n\n -Second Wind : 일정한 스테미너를 소비할경우 회복속도가 빨라짐\n\n -Selfish : 독단적 플레이를 함\n\n -Solid player: 믿음직한 선수,꾸준한 선수 \n\n -Speed Dribbler: 스피드에 중점을 둔 빠른 드리블링을 구사함\n\n -Stays On Goal Line : 타겟맨과의 볼 경합시 골 라인에서 막으려는 수비 성향을 갖는다 \n\n -Super Sub : 최고의 후보 선수 (교체출전시 컨디션 상향) \n\n -Switchs Ball To Other Flank: 반대쪽 사이드로 롱패스를 시도할 경우 시야가 향상됨\n\n -Takes Finesse Style FreeKick: 커브 프리킥 관련 보정 \n\n -Target Forward : 위치선정 보정 및 박스 안에서 수비수를 재치며 원터치 피니시를 구사하는 성향\n\n -Technical Dribbler: 정교하고 화려한 드리블이 가능함\n\n -Through Balls: 수비벽을 허무는 패스로 선수에게 도움을 주는 성향 (패스보정) \n\n -Tries First Time Shots : 최대한 빠른 타임에 바로 슛을 날림 (발리슛 능력향상)\n\n -Tries To Beat Defensive Line: 오프사이드 트랩을 무너뜨리고 침투하는 움직임을 시도함\n\n -Wing Player: 일정한 스테미너를 소비할경우,회복속도가 빨라짐 \n\n -1 -2 Passer : 1:2 패스 관련 보정\n\n"
+       android:textStyle="bold"
+       android:typeface="normal" />
+    </LinearLayout>
+
+    
+    </ScrollView>

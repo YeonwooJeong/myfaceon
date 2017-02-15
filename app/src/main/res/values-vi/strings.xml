@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="string_help_text"> The Storage and Camera is missing.\n\nTo grant this permission click on Settings, then Permissions and turn the Storage and Camera permission on.\n\nThen click back twice to return to the app</string>
+    <string name="quit">OK</string>
+    <string name="app_name">MyFaceOn for FIFA Online3 User</string>
+    <string name="original">MyFaceOn -  Original</string>
+    <string name="custom">MyFaceOn - Custom</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="select">Please Select Version</string>
+    <string name="mode">Mode</string>
+    <string name="mode_prompt">Mode Select</string>
+    <string name="hidden_hint">Nếu được chọn trong danh sách được chọn tự động</string>
+    <string name="hidden_list">Hidden List</string>
+	<string name="country_hint">Korea</string>	
+	<string name="name_hint">Son</string>
+	<string name="number_hint">7</string>
+    <string name="left_hint">Left</string>
+    <string name="right_hint">Right</string>
+    <string name="team_hint">TOTTENHAM HOTSPUR</string>
+    <string name="price_hint">496000000</string>
+    <string name="Input_Mode_hint">Input Mode</string>
+    <string name="display_position_hint">Display Position</string>
+    <string name="skill_hint">개인기</string>
+    <string name="none">none</string>
+   
+    
+    <string name="ability_hint1">	Ability 1	</string>
+	<string name="ability_hint2">	Ability 2	</string>
+	<string name="ability_hint3">	Ability 3	</string>
+	<string name="ability_hint4">	Ability 4	</string>
+	<string name="ability_hint5">	Ability 5	</string>
+	<string name="ability_hint6">	Ability 6	</string>
+	<string name="ability_hint7">	Ability 7	</string>
+	<string name="ability_hint8">	Ability 8	</string>
+	<string name="ability_hint9">	Ability 9	</string>
+	<string name="ability_hint10">	Ability 10	</string>
+	<string name="ability_hint11">	Ability 11	</string>
+	<string name="ability_hint12">	Ability 12	</string>
+	<string name="ability_hint13">	Ability 13	</string>
+	<string name="ability_hint14">	Ability 14	</string>
+	<string name="ability_hint15">	Ability 15	</string>
+	<string name="ability_hint16">	Ability 16	</string>
+	<string name="ability_hint17">	Ability 17	</string>
+	<string name="ability_hint18">	Ability 18	</string>
+	<string name="ability_hint19">	Ability 19	</string>
+	<string name="ability_hint20">	Ability 20	</string>
+	<string name="ability_hint21">	Ability 21	</string>
+	<string name="ability_hint22">	Ability 22	</string>
+	<string name="ability_hint23">	Ability 23	</string>
+	<string name="ability_hint24">	Ability 24	</string>
+	<string name="ability_hint25">	Ability 25	</string>
+	<string name="ability_hint26">	Ability 26	</string>
+	<string name="ability_hint27">	Ability 27	</string>
+	<string name="ability_hint28">	Ability 28	</string>
+	<string name="ability_hint29">	Ability 29	</string>
+	<string name="ability_hint30">	Ability 30	</string>
+	<string name="ability_hint31">	Ability 31	</string>
+	<string name="ability_hint32">	Ability 32	</string>
+	<string name="ability_hint33">	Ability 33	</string>
+	<string name="ability_hint34">	Ability 34	</string>
+	<string name="ability_hint35">	Ability 35	</string>
+	<string name="ability_hint36">	Ability 36	</string>
+
+    <string-array name="mode_array">
+        <item>Custom</item>
+        <item>Original</item>        
+    </string-array>
+
+    <string name="force">Reinforce</string>
+    <string name="force_prompt">Reinforce Level</string>
+
+    <string-array name="force_array">
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+5</item>
+        <item>+6</item>
+        <item>+7</item>
+        <item>+8</item>
+        <item>+9</item>
+        <item>+10</item>
+    </string-array>
+    <string name="position">Position</string>
+    <string name="position_prompt">Position Select</string>
+
+    <string-array name="position_array">
+        <item>All</item>
+        <item>User Input</item>
+        <item>ST</item>
+        <item>CF</item>
+        <item>LW,RW</item>
+        <item>CAM</item>
+        <item>CM</item>
+        <item>CDM</item>
+        <item>LM,RM</item>
+        <item>CB</item>
+        <item>LB,RB</item>
+        <item>LWB,RWB</item>
+        <item>SW</item>
+        <item>GK</item>
+    </string-array>
+
+    <string name="body">Body Type</string>
+    <string-array name="body_array">
+        <item>None</item>
+        <item>Lean</item>
+        <item>Average</item>
+        <item>Bulky</item>
+    
+    </string-array>
+    
+    <string name="txt_style">Specialities</string>
+    <string name="style1">Specialities1</string>
+    <string name="style2">Specialities2</string>
+    <string name="style3">Specialities3</string>
+    <string name="style_prompt">Specialities</string>
+    <string-array name="style_array">
+        <item>None</item>
+		<item>COMPLETE FORWARD</item>
+		<item>COMPLETE MIDFIELDER</item>
+		<item>COMPLETE DEFENDER</item>
+		<item>POACHER</item>
+		<item>AERIAL THREAT</item>
+		<item>SPEEDSTER</item>
+		<item>ENGINE</item>
+		<item>PLAYMAKER</item>
+		<item>ACROBAT</item>
+		<item>TACTICIAN</item>
+		<item>LONG SHOT TAKER</item>
+		<item>CROSSER</item>
+		<item>STRENGTH</item>
+		<item>DRIBBLER</item>
+		<item>TACKLING</item>
+		<item>FK SPECIALIST</item>
+		<item>CLINICAL FINISHER</item>
+	 </string-array>
+         
+    <string name="participation">Work rate</string>
+    <string name="forward_participation">Forward</string>
+    <string name="forward_participation_prompt">Forward Participation Select</string>
+    <string-array name="forward_participation_array">
+        <item>F High</item>
+        <item>F Medium</item>
+        <item>F Low</item>
+    </string-array>
+    
+    <string name="defence_participation">Defence</string>
+    <string name="defence_participation_prompt">Defence Participation Select</string>
+    <string-array name="defence_participation_array">
+        <item>D High</item>
+        <item>D Medium</item>
+        <item>D Low</item>
+    </string-array>
+    
+    <string name="rate_high">High</string>
+    <string name="rate_medium">Medium</string>
+    <string name="rate_low">Low</string>
+    
+    <string name="consist">Determination</string>
+    <string name="consist_prompt">Select</string>
+    <string-array name="consist_array">
+        <item>None</item>
+        <item>Very High Determination</item>
+        <item>High Determination</item>
+        <item>Normal Determination</item>
+        <item>Low Determination</item>
+        <item>Very Low Determination</item>
+        
+    
+    </string-array>
+
+    <string name="season">season</string>
+    <string name="special">special</string>
+    <string name="legend">legend</string>
+    <string name="season_prompt">season select</string>
+    <string-array name="season_array">
+        <item>17</item>
+        <item>16</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>09</item>
+        <item>08</item>
+        <item>07</item>
+        <item>06</item>
+        <item>05</item>
+        <item>04</item>
+        <item>03</item>
+        <item>02</item>
+        <item>01</item>
+        <item>00</item>
+        <item>99</item>
+        <item>98</item>
+    </string-array>
+    <string-array name="special_array">
+        <item>LP</item>
+        <item>16 EC</item>
+        <item>U-23</item>
+        <item>16 TOTS</item>
+        <item>15 TOTS</item>
+        <item>14 TOTS</item>
+        <item>22 World Cup</item>
+        <item>18 World Cup</item>
+        <item>14 World Cup</item>
+        <item>10 World Cup</item>
+        <item>06 World Cup</item>
+        <item>02 World Cup</item>
+        <item>15 U</item>
+        <item>14 U</item>
+        <item>13 U</item>
+        <item>12 U</item>
+        <item>10 U</item>
+        <item>06 U</item>
+        <item>12 E</item>
+        <item>08 E</item>
+        <item>15 china</item>
+    </string-array>
+
+    <string-array name="legend_array">
+        <item>World Legend</item>
+        <item>WORLD BEST</item>
+        <item>EU Legend</item>
+        <item>Korean Legend</item>
+        <item>2002 Legend</item>
+        <item>ManU E</item>
+        <item>16 Korea Legend</item>
+        <item>Special</item>
+    </string-array>
+
+
+    <string name="star">Skill</string>
+    <string name="star_prompt">Skill Move</string>
+
+    <string-array name="star_array">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="country">Country</string>
+    <string name="country_prompt">Country Select</string>
+
+ <string-array name="country_array">		
+        <item> User Input</item>		
+        <item>	Afghanistan	</item>
+        <item>	Albania	</item>
+        <item>	Algerie	</item>
+        <item>	AntiguaBarbuda	</item>
+        <item>	Argentina </item>	
+        <item>	Armenia	</item>
+        <item>	Australia	</item>
+        <item>	Austria	</item>
+        <item>	Bahrain	</item>
+        <item>	Bangladesh	</item>
+        <item>	Belarus	</item>
+        <item>	Belgium	</item>
+        <item>	Bosna	</item>
+        <item>	Brazil	</item>
+        <item>	Brunei	</item>
+        <item>	Bulgaria	</item>
+        <item>	Burkinafaso	</item>
+        <item>	Cambodia	</item>
+        <item>	Cameroon	</item>
+        <item>	Canada	</item>
+        <item>	Capeverde	</item>
+        <item>	Chad	</item>
+        <item>	Chile	</item>
+        <item>	China	</item>
+        <item>	Colombia	</item>
+        <item>	Congo	</item>
+        <item>	Costarica	</item>
+        <item>	Cotedvoire	</item>
+        <item>	Croatia	</item>
+        <item>  Cuba	</item>
+        <item>	Czech	</item>
+        <item>	Denmark	</item>
+        <item>	Djibouti	</item>
+        <item>	Ecuador	</item>
+        <item>	Egypt	</item>
+        <item>	England	</item>
+        <item>	Ethiopia	</item>
+        <item>	Faroeisland	</item>
+        <item>	Finland	</item>
+        <item>	France	</item>
+        <item>	Gabon	</item>
+        <item>	Gambia	</item>
+        <item>	Georgia	</item>
+        <item>	Germany	</item>
+        <item>	Ghana	</item>
+        <item>	Greece	</item>
+        <item>	Grenada	</item>
+        <item>	Guam	</item>
+        <item>	Guatemala	</item>
+        <item>	Guinea	</item>
+        <item>	Guinebissau	</item>
+        <item>	Guyana	</item>
+        <item>	Hongkong	</item>
+        <item>	Hungary	</item>
+        <item>	Iceland	</item>
+        <item>	India	</item>
+        <item>	Indonesia	</item>
+        <item>	Iran	</item>
+        <item>	Iraq	</item>
+        <item>	Ireland	</item>
+        <item>	Israel	</item>
+        <item>	Italy	</item>
+        <item>	Jameica	</item>
+        <item>	Japan	</item>
+        <item>	Jordan	</item>
+        <item>	Kazakhstan	</item>
+        <item>	Kenya	</item>
+        <item>	Kirgizstan	</item>
+        <item>	Korea	</item>
+        <item>	Kosovo	</item>
+        <item>	Kuwait	</item>
+        <item>	Lebanon	</item>
+        <item>	Liberia	</item>
+        <item>	Libya	</item>
+        <item>	Lithuania	</item>
+        <item>	Luxemburg	</item>
+        <item>	Macau	</item>
+        <item>	Macedonia	</item>
+        <item>	Madagascar	</item>
+        <item>	Malaysia	</item>
+        <item>	Maldives	</item>
+        <item>	Mali	</item>
+        <item>	Mexico	</item>
+        <item>	Mongol	</item>
+        <item>	Montenegro	</item>
+        <item>	Morocco	</item>
+        <item>	Myanmar	</item>
+        <item>	Namibia	</item>
+        <item>	Nepal	</item>
+        <item>	Netherlands	</item>
+        <item>	Newzealand	</item>
+        <item>	Nigeria	</item>
+        <item>	Northernireland	</item>
+        <item>	Northkorea	</item>
+        <item>	Norway	</item>
+        <item>	Oman	</item>
+        <item>	Pakistan	</item>
+        <item>	Palestine	</item>
+        <item>	Panama	</item>
+        <item>	Paraguay	</item>
+        <item>	Peru	</item>
+        <item>	Philippines	</item>
+        <item>	Poland	</item>
+        <item>	Portugal	</item>
+        <item>	Qatar	</item>
+        <item>	RepublicCongo	</item>
+        <item>	Rumania	</item>
+        <item>	Russia	</item>
+        <item>	Saudiarabia	</item>
+        <item>	Scotland	</item>
+        <item>	Senegal	</item>
+        <item>	Serbia	</item>
+        <item>	Singapore	</item>
+        <item>	Slovakia	</item>
+        <item>	Slovenia	</item>
+        <item>	Solomonislands	</item>
+        <item>	Southafrica	</item>
+        <item>	Spain	</item>
+        <item>	Srilanka	</item>
+        <item>	Sudan	</item>
+        <item>	Suisse	</item>
+        <item>	Sweden	</item>
+        <item>	Syria	</item>
+        <item>	Tadzhikistan	</item>
+        <item>	Taiwan	</item>
+        <item>	Tanzania	</item>
+        <item>	Thailand	</item>
+        <item>	Togo	</item>
+        <item>	Trinidadtobago	</item>
+        <item>	Tuninisi	</item>
+        <item>	Turkey	</item>
+        <item>	Turkmenistan	</item>
+        <item>	UAE	</item>
+        <item>	Uganda	</item>
+        <item>	Ukraina	</item>
+        <item>	Uruguay	</item>
+        <item>	USA	</item>
+        <item>	Uzbekistan	</item>
+        <item>	Venezuela	</item>
+        <item>	Vietnam	</item>
+        <item>	Wales	</item>
+        <item>	Yemen	</item>
+        <item>	Zimbabwe	</item>
+  </string-array>
+
+
+    <string name="link">http://blog.naver.com/mott2468/120192649769</string>
+    <string name="hidden">Traits</string>
+    <string name="hidden_prompt">Traits Select</string>
+
+    <string-array name="hidden_array">
+        <item>reset</item>       
+        <item>Argues With Officials</item>
+        <item>Avoids Using Weaker Foot</item>
+        <item>Cautious With Crosses</item>
+        <item>Comes For Crosses</item>
+        <item>Corner Specialist</item>
+        <item>Counter Attacker</item>
+        <item>Diver</item>
+        <item>Dives Into Tackles</item>
+        <item>Early Crosser</item>
+        <item>Fancy Flicks</item>
+        <item>Finesse Header</item>
+        <item>Finesse Shot</item>
+        <item>Flair	</item>
+        <item>Forward pushes wide left</item>
+        <item>Forward pushes wide Right</item>
+        <item>Giant Thorw in</item>
+        <item>GK Long Throw</item>
+        <item>GK One On One</item>
+        <item>GK Puncher</item>
+        <item>GK up for Corners</item>
+        <item>Heel Passer</item>
+        <item>High Determination</item>
+        <item>Holds Up</item>
+        <item>Inflexible</item>
+        <item>Injury Free</item>
+        <item>Injury Prone</item>
+        <item>Late Crosser</item>
+        <item>﻿Leadership</item>
+        <item>Long Passer</item>
+        <item>Long Shot Taker</item>
+        <item>Long Throw in</item>
+        <item>Low Concentration</item>
+        <item>Low Determination</item>
+        <item>One Time Passer</item>
+        <item>Outside Foot Shot</item>
+        <item>Outside passer</item>
+        <item>Penalty Saving</item>
+        <item>Play Maker</item>
+        <item>Power Header</item>
+        <item>Pumps up crowd</item>
+        <item>Pumps up team mates</item>
+        <item>Pushes Forward/Overlabs</item>
+        <item>Pumps Up for Corners</item>
+        <item>Responsibility Taker</item>
+        <item>Risk Taker</item>
+        <item>Rushes Out Of Goal</item>
+        <item>Second Wind</item>
+        <item>Selfish﻿﻿</item>
+        <item>Solid player</item>
+        <item>Speed Dribbler</item>
+        <item>Stays On Goal Line</item>
+        <item>Super Sub</item>
+        <item>Switchs Ball To Other Flank</item>
+        <item>Takes Finesse Style FreeKick</item>
+        <item>Takes Powerful Driven Free Kick</item>
+        <item>Target Forward</item>
+        <item>Technical Dribbler</item>
+        <item>Team Player</item>
+        <item>Through Balls</item>
+        <item>Tries First Time Shots</item>
+        <item>Tries To Beat Defensive Line</item>
+        <item>Wing Player</item>
+        <item>1-2 Passer</item>
+    </string-array>
+    
+     <string-array name="new_hidden_array">
+        <item>reset</item>       
+        <item>Argues With Officials</item>
+        <item>Acrobatic Clearance</item>
+        <item>Avoids Using Weaker Foot</item>
+        <item>Crowd Favorite</item>
+        <item>Diver</item>
+        <item>Dives Into Tackles</item>
+        <item>Early Crosser</item>
+        <item>Finesse Shot</item>
+        <item>Flair	</item>
+        <item>Giant Throws</item>
+        <item>GK Long Thrower</item>
+        <item>GK One On One</item>
+        <item>Puncher</item>
+        <item>Pushes up for Corners</item>
+        <item>Inflexible</item>
+        <item>Injury Free</item>
+        <item>Injury Prone</item>
+        <item>﻿Leadership</item>
+        <item>Long Passer</item>
+        <item>Long Shot Taker</item>
+        <item>Long Throws</item>
+        <item>Outside Foot Shot</item>
+        <item>Play Maker</item>
+        <item>Power Header</item>
+        <item>Second Wind</item>
+        <item>Selfish﻿﻿</item>
+        <item>Swerve Passer</item>
+    </string-array>
+
+    <!-- 입력부분 -->
+    <string name="button1">Create</string>
+    <string name="button2">Manual</string>
+    <string name="name">Name</string>
+    <string name="national">Country</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="birth">Birth Date</string>
+    <string name="foot">Foot</string>
+    <string name="foot_right">Right</string>
+    <string name="foot_left">Left</string>
+    <string name="ability">ability</string>
+    <string name="value">Value</string>
+    <string name="price">Price</string>
+    <string name="bodytype">Body Type</string>
+    <string name="team">Team</string>
+    <string name="number">Number</string>
+
+    <!-- 입력부분 -->
+
+    <string name="title_activity_select_activity2">SelectActivity2</string>
+    <string name="title_activity_position">PositionActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_custom_full">CustomFullActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+     <!-- 사용법 -->
+     <string name="developer">Developer : todriver08</string>
+     <string name="son">I cheer for play of Son Heung-Min in EPL. COYS!</string>
+    <string name="manual">&#160;&#160;How to Use MyFaceOn for FIFA Online3 User \n \n &#160; &#160; &#160;1. Click the Create. \n\n &#160; &#160; &#160;2. Season, countries such as Select or enter the desired value. \n\n &#160; &#160; &#160;3. Enter to bring up the picture complete. \n\n &#160; &#160; &#160;4. Press to save \n\n &#160; &#160; &#160;The end!  \n\n &#160; &#160; &#160;creates a profile to share a friend\'s sending \n&#160;&#160;&#160;   to a friend! \n</string>
+</resources>
