@@ -181,6 +181,7 @@
     <string name="legend">레전드</string>
     <string name="season_prompt">시즌 선택</string>
     <string-array name="season_array">
+        <item>22</item>
         <item>17</item>
         <item>16</item>
         <item>15</item>
@@ -219,7 +220,10 @@
         <item>14 U</item>
         <item>13 U</item>
         <item>12 U</item>
+        <item>11 U</item>
         <item>10 U</item>
+        <item>09 U</item>
+        <item>07 U</item>
         <item>06 U</item>
         <item>12 E</item>
         <item>08 E</item>
@@ -236,6 +240,7 @@
         <item>ManU E</item>
         <item>16 Korea Legend</item>
         <item>K League Legend</item>
+        <item>Ultimate Tiger</item>
         <item>Special</item>
     </string-array>
 

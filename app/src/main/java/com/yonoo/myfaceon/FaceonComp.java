@@ -41,7 +41,10 @@ public class FaceonComp {
 
 			map.put("08 E", R.drawable.e08);
 			map.put("12 E", R.drawable.e12);
+			map.put("07 U", R.drawable.eu07);
+			map.put("09 U", R.drawable.eu09);
 			map.put("10 U", R.drawable.eu10);
+			map.put("11 U", R.drawable.eu11);
 			map.put("12 U", R.drawable.eu12);
 			map.put("13 U", R.drawable.eu13);
 			map.put("14 U", R.drawable.eu14);
@@ -66,6 +69,7 @@ public class FaceonComp {
 			map.put("16 EC", R.drawable.ec16);
 
 			map.put("LP", R.drawable.lp);
+			map.put("UT", R.drawable.ut);
 
 			map.put("98", R.drawable.year98);
 			map.put("99", R.drawable.year99);
@@ -87,6 +91,7 @@ public class FaceonComp {
 			map.put("15", R.drawable.year15);
 			map.put("16", R.drawable.year16);
 			map.put("17", R.drawable.year17);
+			map.put("22", R.drawable.year22);
 
 
 
@@ -223,6 +228,8 @@ public class FaceonComp {
 		}else if(str_season.equals("LP")){
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backlp);
 		}else if(str_season.equals("K League Legend")){
+			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backkl);
+		}else if(str_season.equals("UT")){
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backkl);
 		}
 
