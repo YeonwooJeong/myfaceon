@@ -201,7 +201,7 @@ public class FaceonComp {
 
 		BitmapDrawable img_season = null;
 		BitmapDrawable img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.bg1);
-		if(str_season.equals("10 U")|| str_season.equals("06 U")|| str_season.equals("12 U") || str_season.equals("13 U")
+		if(str_season.equals("09 U")|| str_season.equals("10 U")|| str_season.equals("06 U")|| str_season.equals("07 U")|| str_season.equals("11 U") || str_season.equals("12 U") || str_season.equals("13 U")
 				|| str_season.equals("14 U")|| str_season.equals("15 U")){
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.back10u);
 		}else if(str_season.equals("08 E") || str_season.equals("12 E")){
@@ -231,7 +231,7 @@ public class FaceonComp {
 		}else if(str_season.equals("K League Legend")){
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backkl);
 		}else if(str_season.equals("Ultimate Tiger") || str_season.equals("얼티밋 타이거")){
-			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backkl);
+			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backut);
 		}
 
 		return img_bg;
