@@ -132,7 +132,10 @@ public class SelectActivity extends AdlibActivity implements OnClickListener{
 		Button btn2 = (Button)findViewById(R.id.button_custom);
 		btn2.setOnClickListener(this);
 
-//		btn.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/NEXONFootballGothicB.ttf"));
+		Button privacy = (Button)findViewById(R.id.privacy);
+		privacy.setOnClickListener(this);
+
+		privacy.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/NEXONFootballGothicB.ttf"));
 		btn2.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/NEXONFootballGothicB.ttf"));
 
 		ImageView iv = (ImageView) findViewById(R.id.img);
@@ -232,6 +235,18 @@ public class SelectActivity extends AdlibActivity implements OnClickListener{
 			alert.setTitle("Select Version");
 			// Icon for AlertDialog
 			alert.show();
+		}if(v.getId() == R.id.privacy){
+			final Intent it1 = new Intent(this, ManualActivity.class);
+			AlertDialog.Builder alt_bld = new AlertDialog.Builder(this);
+			alt_bld.setMessage(getString(R.string.manual));
+
+			AlertDialog alert = alt_bld.create();
+			// Title for AlertDialog
+			alert.setCancelable(true);
+			alert.setCanceledOnTouchOutside(true);
+			alert.setTitle(getString(R.string.privacy));
+			alert.show();
+
 		}
 	}
 

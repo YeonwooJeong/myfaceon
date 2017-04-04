@@ -539,6 +539,6 @@
 
      <!-- 사용법 -->
      <string name="developer">Developer : todriver08</string>
-     <string name="son">I cheer for play of Son Heung-Min in EPL. COYS!</string>
-    <string name="manual">&#160;&#160;How to Use MyFaceOn for FIFA Online3 User \n \n &#160; &#160; &#160;1. Click the Create. \n\n &#160; &#160; &#160;2. Season, countries such as Select or enter the desired value. \n\n &#160; &#160; &#160;3. Enter to bring up the picture complete. \n\n &#160; &#160; &#160;4. Press to save \n\n &#160; &#160; &#160;The end!  \n\n &#160; &#160; &#160;creates a profile to share a friend\'s sending \n&#160;&#160;&#160;   to a friend! \n</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="manual">This app requires camera permissions.\nThe camera is used for taking pictures and accessing albums and is not collected or used separately\nThank you.\n</string>
 </resources>

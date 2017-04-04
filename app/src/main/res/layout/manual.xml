@@ -12,9 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/manual"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp" />
+        android:text="@string/manual" />
  
     <TextView
         android:id="@+id/email"
@@ -52,14 +50,6 @@
         android:textSize="17sp"
         android:typeface="normal" />
     
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
-        android:textColor="#FFFFFF"
-        android:text="@string/son"
-        android:typeface="normal" />
   <!-- adlib adview -->
 
 <com.mocoplex.adlib.AdlibAdViewContainer
