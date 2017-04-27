@@ -71,6 +71,7 @@ public class FaceonComp {
 			map.put("16 EC", R.drawable.ec16);
 
 			map.put("LP", R.drawable.lp);
+			map.put("CP", R.drawable.cp);
 
 			map.put("98", R.drawable.year98);
 			map.put("99", R.drawable.year99);
@@ -232,6 +233,8 @@ public class FaceonComp {
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backkl);
 		}else if(str_season.equals("Ultimate Tiger") || str_season.equals("얼티밋 타이거")){
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backut);
+		}else if(str_season.equals("CP")){
+			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backcp);
 		}
 
 		return img_bg;

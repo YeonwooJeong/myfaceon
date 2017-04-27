@@ -203,6 +203,7 @@
         <item>98</item>
     </string-array>
     <string-array name="special_array">
+        <item>CP</item>
         <item>LP</item>
         <item>16 EC</item>
         <item>U-23</item>

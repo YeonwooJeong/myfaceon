@@ -83,7 +83,7 @@
             android:layout_width="110dp"
             android:layout_height="16dp"
         	android:gravity="center"
-        	android:layout_marginTop="141dp"
+        	android:layout_marginTop="143dp"
         	android:layout_marginLeft="16dp"
         	android:layout_gravity="top"
             
