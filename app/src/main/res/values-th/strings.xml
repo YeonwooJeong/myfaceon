@@ -207,6 +207,7 @@
         <item>LP</item>
         <item>16 EC</item>
         <item>U-23</item>
+        <item>U-20</item>
         <item>16 TOTS</item>
         <item>15 TOTS</item>
         <item>14 TOTS</item>
@@ -231,6 +232,7 @@
     </string-array>
 
     <string-array name="legend_array">
+        <item>Ultimate Legend</item>
         <item>World Legend</item>
         <item>WORLD BEST</item>
         <item>EU Legend</item>

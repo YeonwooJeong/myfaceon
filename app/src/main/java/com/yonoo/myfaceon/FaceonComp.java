@@ -36,9 +36,12 @@ public class FaceonComp {
 			map.put("WORLD BEST", R.drawable.world);
 			map.put("World Legend", R.drawable.worldlegend);
 			map.put("U-23", R.drawable.u23);
+			map.put("U-20", R.drawable.u20);
 			map.put("K League Legend", R.drawable.kl);
 			map.put("Ultimate Tiger", R.drawable.ut);
 			map.put("얼티밋 타이거", R.drawable.ut);
+			map.put("얼티밋 레전드", R.drawable.ul);
+			map.put("Ultimate Legend", R.drawable.ul);
 
 
 			map.put("08 E", R.drawable.e08);
@@ -235,6 +238,10 @@ public class FaceonComp {
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backut);
 		}else if(str_season.equals("CP")){
 			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backcp);
+		}else if(str_season.equals("Ultimate Legend") || str_season.equals("얼티밋 레전드")){
+			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backul);
+		}else if(str_season.equals("U-20")){
+			img_bg = (BitmapDrawable)ContextCompat.getDrawable(context,R.drawable.backu20);
 		}
 
 		return img_bg;

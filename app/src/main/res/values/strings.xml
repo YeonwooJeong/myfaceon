@@ -208,6 +208,7 @@
         <item>LP</item>
         <item>16 유럽 아메리카</item>
         <item>U-23</item>
+        <item>U-20</item>
         <item>16 TOTS</item>
         <item>15 TOTS</item>
         <item>14 TOTS</item>
@@ -233,6 +234,7 @@
 
 
     <string-array name="legend_array">
+        <item>Ultimate Lengend</item>
         <item>World Legend</item>
         <item>WORLD BEST</item>
         <item>EU Legend</item>
