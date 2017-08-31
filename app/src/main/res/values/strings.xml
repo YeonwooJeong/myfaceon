@@ -17,7 +17,7 @@
     <string name="name_hint">호즐메</string>
     <string name="number_hint">7</string>
     <string name="country_hint">대한민국</string>
-     <string name="left_hint">왼발</string>
+    <string name="left_hint">왼발</string>
     <string name="right_hint">오른발</string>
     <string name="team_hint">팀 명</string>
     <string name="price_hint">496000000</string>
@@ -25,48 +25,48 @@
     <string name="display_position_hint">표시할 포지션</string>
     <string name="skill_hint">개인기</string>
     <string name="none">없음</string>
-    
-	<string name="ability_hint1">	능력 1	</string>
-	<string name="ability_hint2">	능력 2	</string>
-	<string name="ability_hint3">	능력 3	</string>
-	<string name="ability_hint4">	능력 4	</string>
-	<string name="ability_hint5">	능력 5	</string>
-	<string name="ability_hint6">	능력 6	</string>
-	<string name="ability_hint7">	능력 7	</string>
-	<string name="ability_hint8">	능력 8	</string>
-	<string name="ability_hint9">	능력 9	</string>
-	<string name="ability_hint10">	능력 10	</string>
-	<string name="ability_hint11">	능력 11	</string>
-	<string name="ability_hint12">	능력 12	</string>
-	<string name="ability_hint13">	능력 13	</string>
-	<string name="ability_hint14">	능력 14	</string>
-	<string name="ability_hint15">	능력 15	</string>
-	<string name="ability_hint16">	능력 16	</string>
-	<string name="ability_hint17">	능력 17	</string>
-	<string name="ability_hint18">	능력 18	</string>
-	<string name="ability_hint19">	능력 19	</string>
-	<string name="ability_hint20">	능력 20	</string>
-	<string name="ability_hint21">	능력 21	</string>
-	<string name="ability_hint22">	능력 22	</string>
-	<string name="ability_hint23">	능력 23	</string>
-	<string name="ability_hint24">	능력 24	</string>
-	<string name="ability_hint25">	능력 25	</string>
-	<string name="ability_hint26">	능력 26	</string>
-	<string name="ability_hint27">	능력 27	</string>
-	<string name="ability_hint28">	능력 28	</string>
-	<string name="ability_hint29">	능력 29	</string>
-	<string name="ability_hint30">	능력 30	</string>
-	<string name="ability_hint31">	능력 31	</string>
-	<string name="ability_hint32">	능력 32	</string>
-	<string name="ability_hint33">	능력 33	</string>
-	<string name="ability_hint34">	능력 34	</string>
-	<string name="ability_hint35">	능력 35	</string>
-	<string name="ability_hint36">	능력 36	</string>
-    
-    
+
+    <string name="ability_hint1">	능력 1	</string>
+    <string name="ability_hint2">	능력 2	</string>
+    <string name="ability_hint3">	능력 3	</string>
+    <string name="ability_hint4">	능력 4	</string>
+    <string name="ability_hint5">	능력 5	</string>
+    <string name="ability_hint6">	능력 6	</string>
+    <string name="ability_hint7">	능력 7	</string>
+    <string name="ability_hint8">	능력 8	</string>
+    <string name="ability_hint9">	능력 9	</string>
+    <string name="ability_hint10">	능력 10	</string>
+    <string name="ability_hint11">	능력 11	</string>
+    <string name="ability_hint12">	능력 12	</string>
+    <string name="ability_hint13">	능력 13	</string>
+    <string name="ability_hint14">	능력 14	</string>
+    <string name="ability_hint15">	능력 15	</string>
+    <string name="ability_hint16">	능력 16	</string>
+    <string name="ability_hint17">	능력 17	</string>
+    <string name="ability_hint18">	능력 18	</string>
+    <string name="ability_hint19">	능력 19	</string>
+    <string name="ability_hint20">	능력 20	</string>
+    <string name="ability_hint21">	능력 21	</string>
+    <string name="ability_hint22">	능력 22	</string>
+    <string name="ability_hint23">	능력 23	</string>
+    <string name="ability_hint24">	능력 24	</string>
+    <string name="ability_hint25">	능력 25	</string>
+    <string name="ability_hint26">	능력 26	</string>
+    <string name="ability_hint27">	능력 27	</string>
+    <string name="ability_hint28">	능력 28	</string>
+    <string name="ability_hint29">	능력 29	</string>
+    <string name="ability_hint30">	능력 30	</string>
+    <string name="ability_hint31">	능력 31	</string>
+    <string name="ability_hint32">	능력 32	</string>
+    <string name="ability_hint33">	능력 33	</string>
+    <string name="ability_hint34">	능력 34	</string>
+    <string name="ability_hint35">	능력 35	</string>
+    <string name="ability_hint36">	능력 36	</string>
+
+
     <string-array name="mode_array">
         <item>Custom</item>
-        <item>Original</item>        
+        <item>Original</item>
     </string-array>
 
     <string name="force">강화</string>
@@ -111,9 +111,9 @@
         <item>마른체격</item>
         <item>보통체격</item>
         <item>비대체격</item>
-    
+
     </string-array>
-    
+
     <string name="txt_style">칭호</string>
     <string name="style1">칭호1</string>
     <string name="style2">칭호2</string>
@@ -121,28 +121,28 @@
     <string name="style_prompt">칭호 선택</string>
     <string-array name="style_array">
         <item>없음</item>
-       	<item>완벽한 공격수</item>
-		<item>완벽한 미드필더</item>
-		<item>완벽한 수비수</item>
-		<item>골게터</item>
-		<item>공중의 지배자</item>
-		<item>날쌘돌이	</item>
-		<item>두 개의 심장</item>
-		<item>마에스트로</item>
-		<item>아크로바틱</item>
-		<item>진공 청소기</item>
-		<item>캐논 슈터</item>
-		<item>택배 크로스</item>
-		<item>탱커</item>
-		<item>테크니션</item>
-		<item>통곡의 벽</item>
-		<item>프리킥 스페셜리스트</item>
-		<item>해결사</item>
-    
+        <item>완벽한 공격수</item>
+        <item>완벽한 미드필더</item>
+        <item>완벽한 수비수</item>
+        <item>골게터</item>
+        <item>공중의 지배자</item>
+        <item>날쌘돌이	</item>
+        <item>두 개의 심장</item>
+        <item>마에스트로</item>
+        <item>아크로바틱</item>
+        <item>진공 청소기</item>
+        <item>캐논 슈터</item>
+        <item>택배 크로스</item>
+        <item>탱커</item>
+        <item>테크니션</item>
+        <item>통곡의 벽</item>
+        <item>프리킥 스페셜리스트</item>
+        <item>해결사</item>
+
     </string-array>
-    
+
     <string name="participation">참여도</string>
-    
+
     <string name="forward_participation">공격 참여도</string>
     <string name="forward_participation_prompt">공격 참여도 선택</string>
     <string-array name="forward_participation_array">
@@ -150,7 +150,7 @@
         <item>공격 보통</item>
         <item>공격 낮음</item>
     </string-array>
-    
+
     <string name="defence_participation">수비 참여도</string>
     <string name="defence_participation_prompt">수비 참여도 선택</string>
     <string-array name="defence_participation_array">
@@ -158,11 +158,11 @@
         <item>수비 보통</item>
         <item>수비 낮음</item>
     </string-array>
-    
+
     <string name="rate_high">High</string>
     <string name="rate_medium">Medium</string>
     <string name="rate_low">Low</string>
-    
+
     <string name="consist">일관성</string>
     <string name="consist_prompt">시즌 선택</string>
     <string-array name="consist_array">
@@ -172,8 +172,8 @@
         <item>보통 일관성</item>
         <item>낮은 일관성</item>
         <item>매우 낮은 일관성</item>
-        
-    
+
+
     </string-array>
 
     <string name="season">시즌</string>
@@ -204,6 +204,7 @@
         <item>98</item>
     </string-array>
     <string-array name="special_array">
+        <item>CC</item>
         <item>CP</item>
         <item>LP</item>
         <item>16 유럽 아메리카</item>
@@ -235,6 +236,7 @@
 
     <string-array name="legend_array">
         <item>Ultimate Legend</item>
+        <item>Ultimate Best</item>
         <item>World Legend</item>
         <item>WORLD BEST</item>
         <item>EU Legend</item>
@@ -419,7 +421,7 @@
     <string name="link">http://blog.naver.com/mott2468/120192649769</string>
 
     <string-array name="hidden_array">
-        <item>초기화</item>       
+        <item>초기화</item>
         <item>Argues With Officials</item>
         <item>Avoids Using Weaker Foot</item>
         <item>Cautious With Crosses</item>
@@ -485,7 +487,7 @@
         <item>1-2 Passer</item>
     </string-array>
 
-     <string name="hidden">히든스탯</string>
+    <string name="hidden">히든스탯</string>
     <string name="hidden_prompt">히든스탯</string>
 
     <string-array name="new_hidden_array">
@@ -517,8 +519,8 @@
         <item> 	GK 날렵한 펀칭	</item>
         <item> 	GK 능숙한 1:1 수비	</item>
         <item> 	GK 멀리 던지기	</item>
-     </string-array>
-    
+    </string-array>
+
     <!-- 입력부분 -->
     <string name="button1">프로필 생성</string>
     <string name="button2">사용법</string>
@@ -544,10 +546,10 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_custom_full">CustomFullActivity</string>
     <string name="hello_world">Hello world!</string>
-    
-    
+
+
     <!-- 사용법 -->
-     <string name="developer">개발자 : todriver08</string>
+    <string name="developer">개발자 : todriver08</string>
     <string name="privacy">개인정보처리방침</string>
     <string name="manual">이 앱은 카메라 권한을 필요로 합니다.\n카메라는 사진 촬영 및 앨범 접근용으로 사용하며 별도로 수집되거나 사용되지 않습니다.\n감사합니다.\n</string>
 

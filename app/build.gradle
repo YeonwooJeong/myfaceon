@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.yonoo.myfaceon"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 105
-        versionName "2.9.2"
+        versionCode 106
+        versionName "2.9.3"
         multiDexEnabled true
     }
     buildTypes {

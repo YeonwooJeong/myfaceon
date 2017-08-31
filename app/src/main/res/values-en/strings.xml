@@ -203,6 +203,7 @@
     </string-array>
     <string-array name="special_array">
         <item>CP</item>
+        <item>CC</item>
         <item>LP</item>
         <item>16 EC</item>
         <item>U-23</item>
@@ -232,6 +233,7 @@
 
     <string-array name="legend_array">
         <item>Ultimate Legend</item>
+        <item>Ultimate Best</item>
         <item>World Legend</item>
         <item>WORLD BEST</item>
         <item>EU Legend</item>
