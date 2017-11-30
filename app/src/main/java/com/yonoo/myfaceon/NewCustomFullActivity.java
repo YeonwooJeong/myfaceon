@@ -248,7 +248,7 @@ public class NewCustomFullActivity extends AdlibActivity implements OnClickListe
 		}
 
 
-		//체격
+		//체격eee
 		String str_body= it.getStringExtra("it_body");
 		TextView txt_body=(TextView)findViewById(R.id.body);
 		txt_body.setTextColor(someColor4);

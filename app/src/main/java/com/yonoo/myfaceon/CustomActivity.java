@@ -58,7 +58,7 @@ public class CustomActivity extends AdlibActivity implements OnClickListener {
 	int someColor8 = Color.rgb(86, 95, 106);//포지션 평균 스탯색깔
 	int someColor9 = Color.rgb(99, 60, 251);//110~119
 	int someColor10 = Color.rgb(224, 239, 78);//120~
-
+//
 	private static final int PICK_FROM_CAMERA = 0;
 	private static final int PICK_FROM_ALBUM = 1;
 	private static final int CROP_FROM_CAMERA = 2;
