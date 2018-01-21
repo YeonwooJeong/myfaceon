@@ -407,8 +407,8 @@ public class NewProfileActivity extends AdlibActivity implements OnClickListener
 			LinearLayout hidden_stat = (LinearLayout) findViewById(R.id.hidden_lay);
 			LinearLayout half = (LinearLayout) findViewById(R.id.half_lay);
 			LinearLayout team = (LinearLayout) findViewById(R.id.team);
-			LinearLayout poten = (LinearLayout) findViewById(R.id.lay35);
-			LinearLayout gk1on1 = (LinearLayout) findViewById(R.id.lay36);
+//			LinearLayout poten = (LinearLayout) findViewById(R.id.lay35);
+//			LinearLayout gk1on1 = (LinearLayout) findViewById(R.id.lay36);
 			LinearLayout ep = (LinearLayout) findViewById(R.id.ep_lay);
 			TextView txt_body = (TextView) findViewById(R.id.txt_body);
 			TextView viewPosition = (TextView) findViewById(R.id.view_position);
@@ -433,8 +433,8 @@ public class NewProfileActivity extends AdlibActivity implements OnClickListener
 					txt_body.setVisibility(View.GONE);
 					body.setVisibility(View.GONE);
 					ep.setVisibility(View.GONE);
-					poten.setVisibility(View.GONE);
-					gk1on1.setVisibility(View.GONE);
+//					poten.setVisibility(View.GONE);
+//					gk1on1.setVisibility(View.GONE);
 					half.setVisibility(View.VISIBLE);
 					spinner4.setSelection(0);
 //						viewPosition.setVisibility(View.GONE);
@@ -460,8 +460,8 @@ public class NewProfileActivity extends AdlibActivity implements OnClickListener
 					txt_body.setVisibility(View.VISIBLE);
 					body.setVisibility(View.VISIBLE);
 					ep.setVisibility(View.VISIBLE);
-					poten.setVisibility(View.VISIBLE);
-					gk1on1.setVisibility(View.VISIBLE);
+//					poten.setVisibility(View.VISIBLE);
+//					gk1on1.setVisibility(View.VISIBLE);
 					hidden_stat.setVisibility(View.VISIBLE);
 //						viewPosition.setVisibility(View.VISIBLE);
 //						position1.setVisibility(View.VISIBLE);
@@ -1044,10 +1044,7 @@ public class NewProfileActivity extends AdlibActivity implements OnClickListener
 
 			Intent it=null;
 
-			if(str_mode.equals("Original")){
-				str_body = null;
-				it = new Intent(this, OriginalActivity.class);
-			}else if(str_position.equals("전체")|| str_position.equals("All") ){
+			if(str_position.equals("전체")|| str_position.equals("All") ){
 				it = new Intent(this, NewCustomFullActivity.class);
 			}else{
 				System.out.println("뉴커스텁액티비티");

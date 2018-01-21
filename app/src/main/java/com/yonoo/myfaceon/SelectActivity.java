@@ -183,7 +183,7 @@ public class SelectActivity extends AdlibActivity implements OnClickListener{
 //		}
 		if(v.getId() == R.id.button_custom){
 			String st1 = getString(R.string.select);
-			final Intent it1 = new Intent(this, ProfileActivity.class);
+			final Intent it1 = new Intent(this, NewProfileActivity.class);
 			final Intent it2 = new Intent(this, NewProfileActivity.class);
 			AlertDialog.Builder alt_bld = new AlertDialog.Builder(this);
 			alt_bld.setMessage(st1).setCancelable(false)
@@ -212,7 +212,7 @@ public class SelectActivity extends AdlibActivity implements OnClickListener{
 		}
 		if(v.getId() == R.id.button1){
 			String st1 = getString(R.string.select);
-			final Intent it1 = new Intent(this, ProfileActivity.class);
+			final Intent it1 = new Intent(this, NewProfileActivity.class);
 			final Intent it2 = new Intent(this, NewProfileActivity.class);
 			AlertDialog.Builder alt_bld = new AlertDialog.Builder(this);
 			alt_bld.setMessage(st1).setCancelable(false)

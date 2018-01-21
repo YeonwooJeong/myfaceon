@@ -266,7 +266,7 @@ public class NewCustomFullActivity extends AdlibActivity implements OnClickListe
 		bg.setImageDrawable(FaceonComp.getBackGroundBitmapDrawble(this, str_season));
 		season.setImageDrawable(FaceonComp.getSeasonBitmapDrawble(this, str_season));
 
-		TextView txt_hide=(TextView)findViewById(R.id.edit_hide); //히든스탯 텍스트
+//		TextView txt_hide=(TextView)findViewById(R.id.edit_hide); //히든스탯 텍스트
 		String str_mode = it.getStringExtra("it_mode");
 		String str_position = it.getStringExtra("it_position");
 
@@ -307,7 +307,7 @@ public class NewCustomFullActivity extends AdlibActivity implements OnClickListe
 
 
 		if(str_mode.equals("Original")){
-			txt_hide.setVisibility(View.GONE);
+//			txt_hide.setVisibility(View.GONE);
 			txt_hidden.setVisibility(View.GONE);
 //			txt_hidden1.setVisibility(View.GONE);
 //			txt_hidden2.setVisibility(View.GONE);
