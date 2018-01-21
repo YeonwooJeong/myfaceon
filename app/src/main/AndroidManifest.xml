@@ -103,12 +103,6 @@
             android:label="@string/app_name"
             android:screenOrientation="nosensor" >
         </activity>
-        <activity
-            android:name="com.yonoo.myfaceon.CustomActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboard|keyboardHidden"
-            android:label="@string/app_name"
-            android:screenOrientation="nosensor" >
-        </activity>
 
     </application>
 
