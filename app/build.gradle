@@ -8,8 +8,8 @@ android {
         applicationId "com.yonoo.myfaceon"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 106
-        versionName "2.9.3"
+        versionCode 107
+        versionName "2.9.4"
         multiDexEnabled true
     }
     buildTypes {
@@ -40,5 +40,5 @@ dependencies {
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.google.android.gms:play-services-ads:9.0.2'
     compile 'com.google.android.gms:play-services-auth:9.0.2'
-    compile files('C:/Users/yonoo/Downloads/MyFaceOn/libs/adlibr.4.4.0.0.jar')
+    implementation files('C:/Users/yonoo/Downloads/MyFaceOn/libs/adlibr.5.0.0.1.jar')
 }
