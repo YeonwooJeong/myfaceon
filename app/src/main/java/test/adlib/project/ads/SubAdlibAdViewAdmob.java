@@ -75,7 +75,6 @@ public class SubAdlibAdViewAdmob extends SubAdlibAdViewCore {
 				queryAd();
 				gotAd();
 				
-				AdlibConfig.getInstance().bannerImp(SubAdlibAdViewAdmob.this);
 			}
 			
 			@Override
@@ -84,7 +83,6 @@ public class SubAdlibAdViewAdmob extends SubAdlibAdViewCore {
 			
 			@Override
 			public void onAdLeftApplication() {
-				AdlibConfig.getInstance().bannerClk(SubAdlibAdViewAdmob.this);
 			}
 		});
 	}
@@ -191,8 +189,7 @@ public class SubAdlibAdViewAdmob extends SubAdlibAdViewCore {
 			 				h.sendMessage(Message.obtain(h, AdlibManagerCore.DID_SUCCEED, "ADMOB"));
 			 			}
 						
-						AdlibConfig.getInstance().interstitialImp(adlibKey, "ADMOB");
-						
+
 						interstitial.show();
 					}
 				}catch(Exception e){
@@ -205,10 +202,6 @@ public class SubAdlibAdViewAdmob extends SubAdlibAdViewCore {
 			
 			@Override
 			public void onAdLeftApplication() {
-				try{
-					AdlibConfig.getInstance().interstitialClk(adlibKey, "ADMOB");
-				}catch(Exception e){
-				}
 			}
 	    	
 	    });
